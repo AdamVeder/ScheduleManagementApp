@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutEmployeeSalary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/salary_new"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".employee_options.fragments.EmployeeSalaryFragment">
+
+    <Button
+        android:id="@+id/btnMonths"
+        android:layout_width="223dp"
+        android:layout_height="116dp"
+        android:background="@drawable/button_first_design"
+        android:fontFamily="@font/jmhbold"
+        android:gravity="center"
+        android:text="Working Months"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

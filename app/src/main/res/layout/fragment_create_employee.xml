@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutCreateEmployee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_forth_design"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".manager_options.fragments.employees.CreateEmployeeFragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:fontFamily="@font/jmhbold"
+        android:gravity="center"
+        android:text="Enter  Information:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tViewCreateEmpName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name:" />
+
+        <EditText
+            android:id="@+id/eTextCreateEmpName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="user apple" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tViewCreateEmpEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:" />
+
+        <EditText
+            android:id="@+id/eTextCreateEmpEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="user.apple@gmail.com" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tViewCreateEmpDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department:" />
+
+        <EditText
+            android:id="@+id/eTextCreateEmpDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Programmers" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/tViewCreateEmpSalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salary (hourly wage):"
+            tools:layout_conversion_absoluteHeight="19dp"
+            tools:layout_editor_absoluteY="427dp"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_conversion_absoluteWidth="132dp" />
+
+        <EditText
+            android:id="@+id/eTextCreateEmpSalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="50"
+            tools:layout_conversion_absoluteHeight="45dp"
+            tools:layout_editor_absoluteY="447dp"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_conversion_absoluteWidth="210dp" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnFragCreateEmployee"
+            android:layout_width="116dp"
+            android:layout_height="60dp"
+            android:layout_margin="50sp"
+            android:background="@drawable/button_second_design"
+            android:fontFamily="@font/jmhbold"
+            android:text="Create Employee"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/fragCreateEmployeeBtnReturn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/fragCreateEmployeeBtnReturn"
+            android:layout_width="116dp"
+            android:layout_height="66dp"
+            android:layout_margin="50sp"
+            android:background="@drawable/button_second_design"
+            android:fontFamily="@font/jmhbold"
+            android:text="Return"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

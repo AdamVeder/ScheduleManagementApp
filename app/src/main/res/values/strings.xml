@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string-array name="companies">
+        <item>Select Company</item>
+        <item>Apple</item>
+        <item>Steam</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
